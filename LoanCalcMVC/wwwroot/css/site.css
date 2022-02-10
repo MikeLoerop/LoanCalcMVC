@@ -1,0 +1,43 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* Loan Form Styles */
+.loanForm {
+    background-color: rgb(231,231,231);
+}
+
+.loanForm input {
+    width: 100%;
+    padding: .5rem;
+}
+
+.loanForm button {
+    float: right;
+}
+
+#paymentTitle {
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+#payment {
+    color: cornflowerblue;
+    font-size: 3rem;
+}
